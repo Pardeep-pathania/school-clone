@@ -254,7 +254,9 @@ font-family: 'Times New Roman', Times, serif;
     padding: 10px 200px 10px 230px;
     margin-top: 100px;
     height: 950px;
-    background-color: #096ec1;
+    background-image: url(http://starpublicschool69.com/wp-content/uploads/2014/11/home_languageschool_choose_course_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
    align-items: center;
     /* display: flex */
 }
@@ -286,20 +288,178 @@ font-family: 'Times New Roman', Times, serif;
 /* Achievements section */
 
 .achieve{
-    height: 700px;
+    height: 500px;
     display: flex;
-    justify-content: space-evenly;
+   justify-content:space-around;
+   padding-left: 10%;
+   padding-right: 10%;
     padding-top: 30px;
+    /* background-color: aqua; */
 }
 
 .achieve1{
-    width: 28%;
+    width: 25%;
+    /* text-align: center; */
+}
+
+.achieve1 ul li{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 18px
 }
 
 .achieve2{
-    width: 28%;
+    width: 25%;
+    /* background-color:brown; */
+}
+
+.achieve2 ul li{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 18px
+
 }
 
 .achieve3{
-    width: 28%;
+    width: 25%;
+}
+
+.achieve3 ul li{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 18px
+
+}
+
+.achieve3 p{
+    margin-top: 15px;
+    color: grey;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.achieve-text{
+    margin-bottom: 15px;
+    color: rgb(1, 1, 110);
+    font-weight:600;
+
+}
+
+/* Contact-section */
+
+.contact{
+    height: 350px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+    width: 40%;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 15%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.phone h1 p {
+    margin-top: 10px;
+}
+
+.phone h1 p span{
+    font-size: 21px;
+}
+
+.contact-btn{
+    background-color: rgb(18, 18, 103);
+    color: antiquewhite;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.contact-btn:hover{
+    background-color: rgb(25, 25, 141);;
+}
+
+.enquiry{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+}
+
+.map-section{
+    height: 650px;
+    display: flex;
+}
+
+.map{
+    margin: 4% 5px 0 10%;
+}
+.map h1{
+    margin-bottom: 15px;
+    color: rgb(116, 115, 115);
+    font-weight: 100;
+}
+
+.form{
+    width: 40%;
+    margin: 4% 5px 0 10%;
+    margin-left: 20px;
+    background-color: bisque;
+}
+
+.form h1{
+    margin-bottom: 15px;
+    color: rgb(116, 115, 115);
+    font-weight: 100;
+}
+
+.form-div{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form-div div input{
+    padding: 12px 5px 12px 10px;
+    width: 250px;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.form-div div select{
+    padding: 12px 5px 12px 10px;
+    width: 570px;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.form-div textarea{
+    padding: 12px 5px 12px 10px;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    margin-bottom: 25px;
+
+}
+
+.form-div button{
+    color: aliceblue;
+    background-color: red;
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
 }
