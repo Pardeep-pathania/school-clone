@@ -397,7 +397,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .map-section{
-    height: 650px;
+    height: 700px;
     display: flex;
 }
 
@@ -414,7 +414,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 40%;
     margin: 4% 5px 0 10%;
     margin-left: 20px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .form h1{
@@ -460,6 +460,72 @@ font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
     background-color: red;
     padding: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 7px;
     border: none;
+}
+
+.footer{
+    height: 500px;
+    background-color: #000000;
+    display: block;
+}
+
+.footer-top{
+    height: 350px;
+    margin: 0% 10% 2% 10%;
+    padding-top: 2%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-div{
+    width: 23%;
+    height: 310px;
+    /* background-color: rgb(70, 68, 66); */
+    color: white;
+}
+
+.footer-div h1{
+    padding:16px 8px 12px 8px;
+    font-size: 22px;
+    /* margin-bottom: 7px; */
+}
+
+.footer-div p {
+    padding:12px 8px 12px 8px;
+}
+
+.footer-div ul li{
+    margin-left: 25px;
+    padding:7px 8px 12px 5px;
+    list-style: square;
+}
+
+.footer-div ul li:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    margin-top: 1%;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+}
+
+.icon i{
+    color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+    transition:color 0.5s;
+
+}
+
+.icon i:hover{
+    color:aliceblue
 }
