@@ -8,8 +8,59 @@
 .top-bar{
     height: 50px;
     background-color: rgb(243, 29, 29);
+    display: flex;
 
 }
+
+.logout{
+    height: 50px;
+    margin-right:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout i{
+    font-size: 20px;
+    color: white;
+}
+
+
+.logout-content{
+
+    min-width: 100px;
+    position: absolute;
+    display: none;
+    margin-top: 7%;
+    margin-right: 15px;
+}
+
+.logout:hover .logout-content{
+    display: block;
+}
+
+.kk a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.kk1 a{
+    color: white;
+    text-decoration: none;
+
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.kk:hover a{
+    color: rgb(35, 34, 34);
+    }
+    
+    .kk1:hover a{
+        color: rgb(35, 34, 34);
+     }
 
 .num:hover{
     color: black;
@@ -45,7 +96,7 @@ float: left;
     color: white;
     margin-top: 15px;
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -528,4 +579,76 @@ font-family: 'Times New Roman', Times, serif;
 
 .icon i:hover{
     color:aliceblue
+}
+
+
+
+/* For Login.Html file */
+
+.loginForm{
+    height: 590px;
+    padding-top: 10px;
+    
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* background-color: aquamarine; */
+}
+
+.loginImg{
+    width: 35%;
+    margin: 20px;
+    margin-left: 10%;
+    float: left;
+    /* background-color: blue; */
+    height: 100%;
+
+}
+
+.form-detail{
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-right: 10%;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.signup div{
+    width: 100%;
+}
+
+.signup div input{
+    margin-top: 18px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form-btn{
+    width: 200px;
+    padding: 10px;
+    /* display: flex; */
+    margin-top: 10px;
+    /* justify-content: center;
+    text-align: center; */
+}
+
+ /* .form-btn div{
+    
+ margin-left: 10px;
+width: 60%;
+}  */
+
+.form-btn div input{
+    margin-top: 18px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.form-btn div input:hover{
+    background-color: rgb(78, 78, 230);
+    color: aliceblue;
+
 }
