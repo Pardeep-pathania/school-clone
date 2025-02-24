@@ -652,3 +652,74 @@ width: 60%;
     color: aliceblue;
 
 }
+
+.loginForm{
+    background-image: url('https://starpublicschool69.com/wp-content/uploads/2014/11/home_languageschool_choose_language_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.foot{
+    height: 550px;
+    background-color: #000000;
+    display: block;
+}
+
+.foot-top{
+    height: 350px;
+    margin: 0% 10% 2% 10%;
+    padding-top: 2%;
+    background-color: #000000;
+    display: inline-flex;
+}
+
+.foot-div{
+    width: 23%;
+    height: 310px;
+    /* background-color: rgb(70, 68, 66); */
+    color: white;
+}
+
+.foot-div h1{
+    padding:16px 8px 12px 8px;
+    font-size: 22px;
+    /* margin-bottom: 7px; */
+}
+
+.foot-div p {
+    padding:12px 8px 12px 8px;
+}
+
+.foot-div ul li{
+    margin-left: 25px;
+    padding:7px 8px 12px 5px;
+    list-style: square;
+}
+
+.foot-div ul li:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* .footer-bottom{
+    margin-top: 1%;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+/* } */ */
+
+/* .icon i{
+    color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+    transition:color 0.5s;
+
+}
+
+.icon i:hover{
+    color:aliceblue
+} */
